@@ -1,0 +1,62 @@
+@font-face {
+    font-family: 'Koulen';
+    src: url('../font/Koulen/Koulen-Regular.ttf');
+      
+    
+}
+
+@font-face {
+    font-family: 'Battambang';
+    src: url('../font/Battambang/Battambang-Regular.ttf');
+      
+    
+}
+
+
+@font-face {
+    font-family: 'OpenSansbold';
+    src: url('../font/Open_Sans/static/OpenSans-Bold.ttf');
+      
+    
+}
+
+
+
+@font-face {
+    font-family: 'OpenSans';
+    src: url('../font/Open_Sans/static/OpenSans-Regular.ttf');
+      
+    
+}
+
+
+
+@font-face {
+    font-family: 'Moul';
+    src: url('../font/Moul/Moul-Regular.ttf');
+      
+    
+}
+
+
+@font-face {
+    font-family: 'koh_santepheap';
+    src: url('../font/Koh_Santepheap/KohSantepheap-Regular.ttf');
+      
+    
+}
+
+body {
+    font-family: 'Battambang', 'OpenSans', sans-serif;
+   
+}
+h1, h2, h3, h4, h5, h6,.nav-link {
+    font-family: 'Koulen', 'OpenSansbold', sans-serif;
+    color:blue
+}
+
+h1:hover, h2:hover, h3:hover, h4:hover, h5:hover, h6:hover,.nav-link:hover {
+    color: red;
+    scale: 1.1;
+    transition: 1s;
+}
